@@ -45,11 +45,31 @@ a{color:inherit;text-decoration:none}
 .statement .eyebrow{margin-bottom:35px}
 .statement h2{font-size:clamp(48px,7vw,88px);margin:0 0 40px}
 .light-link{display:inline-block;border-bottom:1px solid #fff;padding-bottom:9px}
-footer{background:#050505;color:#fff;padding:65px 7.5% 25px;display:grid;grid-template-columns:1fr 2fr 1fr;align-items:center;gap:25px}
-.footer-mark{font-size:25px}
-.footer-links{display:flex;justify-content:center;gap:clamp(14px,2.8vw,42px)}
-.footer-links a{font-size:8px}
-footer p{font-size:7px;text-align:right;letter-spacing:1px;margin:0}
+
+footer {
+  width: 100%;
+  min-height: 145px;
+  background: #050505;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-mark {
+  display: block;
+  font-family: var(--serif);
+  font-size: 25px;
+  letter-spacing: -2px;
+  font-weight: 400;
+  text-align: center;
+}
+
 @media(max-width:900px){.navigation{padding:0 24px}.nav-left{gap:12px}.nav-left a:nth-child(n+3),.nav-right>a:nth-child(-n+2){display:none}.navigation nav a{font-size:8px}.editorial{padding-left:5%;padding-right:5%;column-gap:5%;row-gap:80px}.editorial-image{min-height:470px}.editorial-copy{padding:20px 3%}}
 
 
